@@ -4,7 +4,9 @@
   "description": "That's just a quick start with Cypress!",
   "scripts": {
     "start": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:getting-started": "cypress run --spec cypress/integration/1-getting-started/**.spec.js",
+    "test:hello-cy": "cypress run --spec cypress/integration/3-hello-cy/**.spec.ts"
   },
   "repository": {
     "type": "git",
